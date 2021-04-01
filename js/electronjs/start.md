@@ -46,11 +46,11 @@ Command 1 을 통해 기본 앱 파일을 생성한 이후,
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
 </head>
 <body style="background: white;">
+    <h1>hello World!</h1>
     <div id="app"></div>
 </body>
-<script src="./build/js/app.js"></script> 
+// <script src="./build/js/app.js"></script> 
 </html>
-
 ```
 
 ## main.js
