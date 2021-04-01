@@ -9,9 +9,7 @@ npm i --save--dev electron electron-reload
 
 INFO: 
 
-
 ```
-
 
 ## 옵션 :: 일렉트론 - 리액트 시작하기
 ```erlang
@@ -24,53 +22,19 @@ Command 3 : 리액트-시작하기
 INFO: 
 
 ```
-
-
-## 기본세팅 :: 기본 파일 만들기
+---
+# ELECTRON APP 만들기
 ```erlang
-Manual Guide of 기본 파일 만들기
+Manual Guide of ELECTRON APP 만들기
+Command 1 : 기본 앱 파일 생성
+touch index.html main.js preload.js
 
-
-INFO: 파일 구조 한눈에 보기
-
-| electronApp 
-- index.html
-- main.js
-- preload.js
-- .gitignore 
-- package.json
-- webpack.common.js
-
-+ src
-- app.js
-- index.js
-
-INFO: 폴더 구조 및 파일 설명
-
-# 일렉트론 앱
-- idex.html : app.js 가 동작하여, app 화면을 그림
-- main.js : 일렉트론 프로세스 동작을 관리함
-- preload.js : 없어도되는 파일, main.js 파일에서 파생된 기능을 관리
-
-
-# 설정 파일
-- .gitignore : git에 등록되지 않는 파일 설정
-- package.json : npm 설정 .. 중요기능만 직접 설정, 나머진 자동 관리
-- webpack.common.js: webpack 설정 .. 중요기능 직접 설정해야한다.
-
-# 리액트 파일 ( 옵션 )
-- src/app.js : 앱의 전체 돔을 최종 관리
-- src/index.js : 최종 렌더링함
-
+INFO: 
+Command 1 을 통해 기본 앱 파일을 생성한 이후,
+아래의 코드를 복사하여 붙여넣는다.
 
 ```
 
----
-# ELECTRON APP 만들기
-    일렉트론 앱을 만들기 위해, 
-    
-    index.html , main.js, preload.js, package.json 파일을 생성한다.
-    준비가 끝나면, npm start 를 실행하자
      
 ## index.html
 ```js
@@ -179,6 +143,53 @@ window.on_noti = (msg) => {
 }
 
 ```
+
+
+## 기본세팅 :: 기본 파일 만들기
+```erlang
+Manual Guide of 기본 파일 만들기
+
+
+INFO: 파일 구조 한눈에 보기
+
+| electronApp 
+- index.html
+- main.js
+- preload.js
+- .gitignore 
+- package.json
+- webpack.common.js
+
++ src
+- app.js
+- index.js
+
+INFO: 폴더 구조 및 파일 설명
+
+# 일렉트론 앱
+- idex.html : app.js 가 동작하여, app 화면을 그림
+- main.js : 일렉트론 프로세스 동작을 관리함
+- preload.js : 없어도되는 파일, main.js 파일에서 파생된 기능을 관리
+
+
+# 설정 파일
+- .gitignore : git에 등록되지 않는 파일 설정
+- package.json : npm 설정 .. 중요기능만 직접 설정, 나머진 자동 관리
+- webpack.common.js: webpack 설정 .. 중요기능 직접 설정해야한다.
+
+# 리액트 파일 ( 옵션 )
+- src/app.js : 앱의 전체 돔을 최종 관리
+- src/index.js : 최종 렌더링함
+
+
+```
+
+
+
+
+
+
+
 
 
 
