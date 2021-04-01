@@ -2,7 +2,7 @@
 * [Startin Point](../README.md)
 * 목차
 * git
-  * [시작하기](git/start.md)
+  * [시작하기](../git/start.md)
 * JS
   * electron
     * [시작하기](../js/electronjs/start.md)
