@@ -6,6 +6,10 @@
 
 * [목차](info/SUMMARY2.md)
 
+## git
+
+* [시작하기](git/start.md)
+
 ## electronjs
 
 * [시작하기](js/electronjs/start.md)
