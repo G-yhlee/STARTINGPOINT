@@ -1,4 +1,4 @@
-## 리액트-시작하기
+## RXJS-시작하기
 ```erlang
 Manual Guide of 리액트-시작하기
 
