@@ -1,22 +1,15 @@
-# Table of contents
-
+# 목차
 * [STARTINGPOINT](../README.md)
+* 목차
+* JS
+  * electron
+    * [시작하기](../js/electronjs/start.md)
 
-## INFO
+  * react
+    * [시작하기](../js/reactjs/start.md)
 
-* [목차](../info/summary2.md)
-
-## electronjs
-
-* [시작하기](../js/electronjs/start.md)
-
-## reactjs
-
-* [시작하기](../js/reactjs/start.md)
-
-## rxjs
-
-* [시작하기](../js/rxjs/start.md)
+  * rxjs
+    * [시작하기](../js/rxjs/start.md)
 
 
 
