@@ -50,7 +50,7 @@ Command 1 을 통해 기본 앱 파일을 생성한 이후,
     <h1>hello World!</h1>
     <div id="app"></div>
 </body>
-<script src="./build/js/app.js"></script> 
+// 웹팩 설정이후 활성화 :: <script src="./build/js/app.js"></script>  
 </html>
 ```
 
