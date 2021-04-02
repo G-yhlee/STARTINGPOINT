@@ -8,12 +8,13 @@
 
 ## git
 
-* [시작하기](git/1.1.install.electron.md)
-* [커스터마이징](git/1.2.install.react.md)
+* [시작하기](git/start.md)
+* [커스터마이징](git/customize.md)
 
 ## electronjs
 
-* [시작하기](js/electronjs/start.md)
+* [시작하기](js/electronjs/1.1.install.electron.md)
+* [리액트 설치하기](js/electronjs/1.2.install.react.md)
 
 ## reactjs
 
