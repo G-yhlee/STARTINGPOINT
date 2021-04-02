@@ -3,11 +3,12 @@
 Manual Guide of 깃-시작하기
 
 Command: 
-mkdir my_folder && cd my_folder
-touch .gitignore readme.md
+mkdir app1 && cd app1
+touch readme.md .gitignore && echo "node_modules" >> .gitignore
 git init 
 git add .
 git commit -m "i"
+code .
 
 
 INFO: 

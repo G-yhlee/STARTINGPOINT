@@ -144,6 +144,7 @@ window.on_noti = (msg) => {
 
 ```
 
+
 # ELECTRON APP 실행하기
 ```erlang
 Manual Guide of ELECTRON APP 실행하기
@@ -154,8 +155,9 @@ Command 1 을 통해 electron app이 실행되면 성공
 
 ```
 
-
 ---
+
+
 ## 체크포인트 1.1
 ```js
 Manual Guide of 체크포인트 1.1
