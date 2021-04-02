@@ -50,7 +50,7 @@ Command 1 을 통해 기본 앱 파일을 생성한 이후,
     <h1>hello World!</h1>
     <div id="app"></div>
 </body>
-// <script src="./build/js/app.js"></script> 
+<script src="./build/js/app.js"></script> 
 </html>
 ```
 
@@ -121,11 +121,13 @@ app.on('window-all-closed', () => {
 ## preload.js
 ```js
 // 옵션파일이다. 없어도 되는 파일임..
-const {ipcRenderer, contextBridge} = require('electron');
+// const {ipcRenderer, contextBridge} = require('electron');
 
-window.on_noti = (msg) => {
-    ipcRenderer.send('type1',msg);
-}
+// window.on_noti = (msg) => {
+//     ipcRenderer.send('type1',msg);
+// }
+
+console.log("hello console log! ")
 
 ```
 
