@@ -144,6 +144,40 @@ window.on_noti = (msg) => {
 
 ```
 
+# ELECTRON APP 실행하기
+```erlang
+Manual Guide of ELECTRON APP 실행하기
+Command 1 : npm run start
+
+INFO: 
+Command 1 을 통해 electron app이 실행되면 성공
+
+```
+
+
+---
+## 체크포인트 1.1
+```js
+Manual Guide of 체크포인트 1.1
+
+Command 1 : 
+git add .
+git commit -m "체크포인트 1.1"
+git push origin main 
+
+
+INFO: 체크포인트 1.1
+체크포인트 1.1 에서는 기본 일렉트론 앱을 실행하였다.
+
+```
+
+
+---
+
+
+
+
+
 
 ## 기본세팅 :: 기본 파일 만들기
 ```erlang
@@ -195,12 +229,6 @@ INFO: 폴더 구조 및 파일 설명
 
 ---
 
-## 체크포인트
-```js
-
-
-
-```
 
 
 ---
