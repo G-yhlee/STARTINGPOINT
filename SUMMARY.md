@@ -13,7 +13,7 @@
 
 ## electronjs
 
-* [시작하기](js/electronjs/1.1.install.electron.md)
+* [일랙트론 설치하기](js/electronjs/1.1.install.electron.md)
 * [리액트 설치하기](js/electronjs/1.2.install.react.md)
 
 ## reactjs
