@@ -167,7 +167,7 @@ Command 1 을 통해 electron app이 실행되면 성공
 Manual Guide of 체크포인트 1.1
 
 Command 1 : 
-g1 "1.1::일렉트론앱 시작"
+g "1.1::start_electron"
 
 
 INFO: 
