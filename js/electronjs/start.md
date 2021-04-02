@@ -2,7 +2,8 @@
 ```erlang
 Manual Guide of 일렉트론-시작하기
 
-Command 1 : 깃-시작하기
+Command 1 : 깃-시작하기 
+g0 electron-app
 Command 2 : 일렉트론-시작하기
 npm init -y
 npm i --save--dev electron electron-reload
@@ -148,7 +149,8 @@ window.on_noti = (msg) => {
 # ELECTRON APP 실행하기
 ```erlang
 Manual Guide of ELECTRON APP 실행하기
-Command 1 : npm run start
+Command 1 : 
+npm run start
 
 INFO: 
 Command 1 을 통해 electron app이 실행되면 성공
@@ -163,9 +165,7 @@ Command 1 을 통해 electron app이 실행되면 성공
 Manual Guide of 체크포인트 1.1
 
 Command 1 : 
-git add .
-git commit -m "체크포인트 1.1"
-git push origin main 
+g1 "1.1::일렉트론앱 시작"
 
 
 INFO: 
