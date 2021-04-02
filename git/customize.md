@@ -34,13 +34,13 @@ Command : g1 "commit 메세지"
 function g1 {
     git add .
     echo "---commit msg: $1---"
-    echo ' '
     git commit -m $1
-    echo "---push to main---"
     echo ' '
-    git push -u origin main
 
+    echo "---push to main---"
+    git push -u origin main
 } 
+
 
 INFO: 
 커밋메세지를 받아 커밋과 푸쉬 명령을 수행한다.
@@ -57,10 +57,10 @@ function g2 {
     echo '---status---'
     git status -s
     echo ' '
+
     echo "---LOG---"
     git log --all --decorate --oneline --graph -n 5
-    echo ' '
-} # 해당 파일이 실행 됩니다
+} 
 
 INFO: 
 깃 현재상태와 로그를 볼수있다.
