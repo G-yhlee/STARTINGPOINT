@@ -4,7 +4,7 @@
 
 ## INFO
 
-* [목차](info/SUMMARY2.md)
+* [목차](info/_SUMMARY.md)
 
 ## git
 
