@@ -4,5 +4,5 @@
 
 ## INFO
 
-Perfone Github: [https://github.com/G-yhlee/STARTINGPOINT](https://github.com/G-yhlee/STARTINGPOINT)  
+STARTINGPOINT Github: [https://github.com/G-yhlee/STARTINGPOINT](https://github.com/G-yhlee/STARTINGPOINT)  
 
