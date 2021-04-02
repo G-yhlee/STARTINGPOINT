@@ -12,6 +12,8 @@ INFO:
 Manual Guide of 깃 프로젝트 시작 :: g0
 
 Command : g0 app1
+
+Function: 
 function g0 {
     mkdir $1 && cd $1
     touch readme.md .gitignore && echo "node_modules" >> .gitignore
@@ -31,6 +33,8 @@ app1 이름을 가진 프로젝트가 시작된다.
 Manual Guide of 깃 커밋하고 푸쉬하기 :: g1 
 
 Command : g1 "commit 메세지"
+
+Function: 
 function g1 {
     git add .
     echo "---commit msg: $1---"
@@ -53,6 +57,9 @@ INFO:
 Manual Guide of 깃 현재 상태 보기 :: g2 
 
 Command : g2
+
+
+Function: 
 function g2 {
     echo '---status---'
     git status -s
