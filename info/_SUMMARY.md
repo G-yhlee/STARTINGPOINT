@@ -6,7 +6,8 @@
   * [커스터마이징](../git/customize.md)
 * JS
   * electron
-    * [시작하기](../js/electronjs/start.md)
+    * [일랙트론 설치하기](../js/electronjs/1.1.install.electron.md)
+    * [리액트 설치하기](../js/electronjs/1.2.install.react.md)
   * react
     * [시작하기](../js/reactjs/start.md)
   * rxjs
