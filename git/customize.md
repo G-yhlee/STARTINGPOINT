@@ -28,6 +28,28 @@ app1 이름을 가진 프로젝트가 시작된다.
 
 ```
 
+## 깃 커밋하기 :: g
+```erlang
+Manual Guide of 깃 커밋하기 :: g 
+
+Command : g "commit 메세지"
+
+Function: 
+function g {
+    git add .
+    echo "---commit msg: $1---"
+    git commit -m $1
+    echo ' '
+} 
+
+
+INFO: 
+커밋메세지를 받아 커밋과 푸쉬 명령을 수행한다.
+깃허브에 연결되어 있지 않은경우, 푸쉬명령을 수행되지 않는다...
+
+```
+
+
 ## 깃 커밋하고 푸쉬하기 :: g1 
 ```erlang
 Manual Guide of 깃 커밋하고 푸쉬하기 :: g1 
