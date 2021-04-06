@@ -1,8 +1,8 @@
 # STARTINGPOINT
 
-* 중복을 피한 개발 "STARTINGPOINT"
+* ao3
 
 ## INFO
 
-Github: [https://github.com/G-yhlee/STARTINGPOINT](https://github.com/G-yhlee/STARTINGPOINT)  
-Gitbook: [https://g-yhlee.gitbook.io/startingpoint/](https://g-yhlee.gitbook.io/startingpoint/)
+Github: [https://github.com/G-yhlee/startingpoint-ao3](https://github.com/G-yhlee/startingpoint-ao3)  
+Gitbook: [https://g-yhlee.gitbook.io/startingpoint/](https://github.com/G-yhlee/startingpoint-ao3) 
