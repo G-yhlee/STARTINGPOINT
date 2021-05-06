@@ -34,7 +34,7 @@
 
 
 ## VSCODE
-* [키보드 단축키1](book/tool/vscode/start.md)
+* [키보드 단축키](book/tool/vscode/start.md)
 
 
 ## db
