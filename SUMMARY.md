@@ -27,7 +27,7 @@
 
 
 ## js_topic
-* [비동기로직](book/js/topic/ascync_await.md.md)
+* [비동기로직](book/js/topic/ascync_await.md)
 
 
 ## gitbook
