@@ -54,6 +54,10 @@
 Github: [https://github.com/G-yhlee/STARTINGPOINT](https://github.com/G-yhlee/STARTINGPOINT)  
 Gitbook: [https://g-yhlee.gitbook.io/startingpoint/](https://g-yhlee.gitbook.io/startingpoint/)
 ```
+## .gitignore 파일생성
+```txt
+_
+```
 ## 폴더 생성
 ```txt
 book/
