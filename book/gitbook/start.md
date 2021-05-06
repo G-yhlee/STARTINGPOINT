@@ -38,15 +38,20 @@ README.md:
 
 * [시작하기](book/js/reactjs/start.md)
 
+## js_topic
+
+* [배열](book/js/topic/array.md)
+
+
 ## rxjs
 
 * [시작하기](book/js/rxjs/start.md)
-
 
 ## gitbook
 
 * [시작하기](book/gitbook/start.md)
 * [이슈](book/gitbook/iss.md)
+
 
 
 

@@ -36,4 +36,8 @@
 ## VSCODE
 * [키보드 단축키](book/tool/vscode/start.md)
 
+
+## db
+* [db연결하기](book/db/database/how_to_connect_to_database.md)
+
 ..
