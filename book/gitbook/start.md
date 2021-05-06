@@ -1,7 +1,20 @@
 # 깃북 시작하기
+```erlang
+Manual Guide of 깃북 시작하기
+
+Command: 
+SUMMARY.md:
+- 파일이름을 대문자로 해야함.
+- 섹션을 나눌때, ## 으로 나눠야 함
+
+README.md:
+- 파일이름을 대문자로 해야함.
+
+
+```
 
 ## SUMMARY.MD 파일생성
-```txt
+```
 # Table of contents..
 
 * [STARTINGPOINT](README.md)
