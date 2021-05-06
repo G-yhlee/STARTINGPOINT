@@ -1,6 +1,6 @@
 # STARTINGPOINT
 
-* ao3
+* 중복을 피한 개발
 
 ## INFO
 

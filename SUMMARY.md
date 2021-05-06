@@ -4,7 +4,7 @@
 
 ## INFO
 
-* [목차](info/_SUMMARY.md)
+* [목차](SUMMARY.md)
 
 ## basic
 
