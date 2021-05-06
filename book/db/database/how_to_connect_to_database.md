@@ -20,6 +20,7 @@
 ## Nodejs example
 ```js
 import mariadb from 'mariadb';
+// const mariadb = require('mariadb');
 const pool = mariadb.createPool({
   "user": db.user,
   "password": db.password,

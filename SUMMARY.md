@@ -26,6 +26,10 @@
 * [시작하기](book/js/rxjs/start.md)
 
 
+## js_topic
+* [비동기로직]](book/db/database/ascync_await.md.md)
+
+
 ## gitbook
 
 * [시작하기](book/gitbook/start.md)
@@ -39,5 +43,6 @@
 
 ## db
 * [db연결하기](book/db/database/how_to_connect_to_database.md)
+
 
 ..
