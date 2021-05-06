@@ -1,3 +1,7 @@
+# 깃북 시작하기
+
+## SUMMARY.MD 파일생성
+```txt
 # Table of contents..
 
 * [STARTINGPOINT](README.md)
@@ -37,3 +41,20 @@
 * [키보드 단축키](book/tool/vscode/start.md)
 
 ..
+
+```
+## README.MD 파일생성
+```txt
+# STARTINGPOINT
+
+* 중복을 피한 개발
+
+## INFO
+
+Github: [https://github.com/G-yhlee/STARTINGPOINT](https://github.com/G-yhlee/STARTINGPOINT)  
+Gitbook: [https://g-yhlee.gitbook.io/startingpoint/](https://g-yhlee.gitbook.io/startingpoint/)
+```
+## 폴더 생성
+```txt
+book/
+```
