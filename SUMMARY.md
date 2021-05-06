@@ -5,8 +5,6 @@
 ## INFO
 
 * [목차](SUMMARY.md)
-* [목따뜻](SUMMARY.md)
-* [목따땃따](SUMMARY.md)
 
 ## git
 
