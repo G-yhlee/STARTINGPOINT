@@ -6,6 +6,10 @@
 
 * [목차](SUMMARY.md)
 
+## hot
+* [1](book/_/1.md)
+
+
 ## git
 
 * [시작하기](book/git/start.md)
