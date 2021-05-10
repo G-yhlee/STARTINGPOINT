@@ -46,10 +46,30 @@ let filter21 = (f,$,_return=[]) => {
 }
 
 let filter31 = (f,[...$]) => $.map(a=>a,$.forEach(_=>f(_)?$.push({pass: _}):$.push({fail: _}) )).slice($.length/2)
-// let filter32 = (f,[...$]) => {$.forEach(_=>$.push(f(_))) ;return $.slice($.length/2)}
+let reducer = (f,[...$]) => $.reduce(f)
+
+log(
+  reducer((acc,c,i)=>  {
+          acc.filter ? (acc.filter(c) ? acc.find.push(c) : 0) : 0
+          return acc.filter==undefined? {filter: acc  ,find: acc(c)? [c] : [] }
+                                      : {filter: acc.filter  ,find: acc.find }
+          },[(a)=>a==4,2,3,4,5,4,3,5,1])
+)
 
 
-log(filter1((a)=>a==1,$3))
+console.log(
+  [(a)=>a==4,2,3,4,5,4,3,5,1].reduce((acc,c,i)=>  {
+  acc.filter ? (acc.filter(c) ? acc.find.push(c) : 0) : 0
+  return acc.filter==undefined? {filter: acc        ,find: acc(c)? [c] : [] }
+                              : {filter: acc.filter ,find: acc.find }
+  }).find
+)
+
+
+
+
+
+log(filter1((a)=>a==1,[1,2,3]))
 // log(filter2(a=>a==2,$4))
 log(filter21(a=>a==2,$4))
 log(filter31((a)=>a==2,$2))
